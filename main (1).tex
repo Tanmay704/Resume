@@ -1,0 +1,219 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{fontawesome}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+\begin{center}
+    \textbf{\Huge \scshape  Tanmay Gunjal} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:918007931568}{+918007931568}
+    $|$
+    \faAt \hspace{.5pt} \href{tanmaygunjal2@gmail.com}{tanmaygunjal2@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/tanmay-gunjal}{LinkedIn}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Pune, Maharashtra}{Pune, Maharashtra}
+\end{center}
+% \begin{center}
+%     \textbf{\Huge \scshape Tanmay Gunjal} \\ \vspace{1pt}
+%     \small +918007931568 $|$ \href{mailto:tanmaygunjal2@gmail.com}{\underline{tanamygunjal2@gmail.com}} $|$ 
+%     \href{https://www.linkedin.com/in/tanmay-gunjal/}{\underline{linkedin.com/in/tanmay-gunjal}} 
+% \end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Savitribai Phule Pune University}{Pune, Maharashtra}
+      {Bachelor of Engineering  in Computer Engineering , CGPA: 8.67 }{June 2018 -- July 2022}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Junior Developer }{Jun 2023\textbf{ }  -- Present}
+      {Citco Group }{Pune, Maharashtra}
+      \resumeItemListStart
+        \resumeItem{Contributed to innovation and automation projects as a Full Stack Developer. }
+        \resumeItem{\textbf{Worked as a Full Stack Engineer} on the Seat Booking App, developing REST APIs and implementing core logic for a role-based system with 4 distinct roles. Utilized frontend libraries such as Material UI, React Router, and others for a seamless user experience. Managed SSO integration via OpenID for secure token validation and efficient archival processes. }
+        \resumeItem{\textbf{Contributed to the deployment tasks} of a serverless infrastructure, gaining hands-on experience with AWS Lambda, API Gateway, and DocumentDB while supporting scalability and performance improvements. Worked on transferring the frontend from S3 to ECS and ensured secure application hosting within a private VPC. }
+        \resumeItem{\textbf{Developed a cost-effective PowerApps-based payroll solution} that automated over 5,000 monthly requests, streamlining HR processes by reducing manual emails. Established a CI/CD pipeline using Azure DevOps to facilitate continuous integration and deployment.  }
+                \resumeItem{\textbf{Worked on a Gen AI-based solution} for the finance team to automatically classify thousands of incoming emails in real time, utilizing AWS Lambda and Bedrock (Anthropic Claude) for high-accuracy decision-making.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Software Engineer}{Jul 2022 -- Jun 2023 }
+      {Persistent Systems}{Pune, Maharashtra}
+      \resumeItemListStart
+        \resumeItem{\textbf{Worked as a Backend Developer} on an employee data management project, focusing on API development, DAO layer implementation, and business logic using Java, Spring Boot, Spring JPA, and MySQL.  }
+        \resumeItem{\textbf{Gained hands-on experience} with Docker, Jenkins, and Azure Web Services, contributing to various development and deployment tasks. }
+        \resumeItem{\textbf{Participated in a persistent hackathon} focused on solving a client’s problem statement related to healthcare (patient multimodal data management). Worked on both backend and frontend tasks.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Student Intern }{Feb 2022 -- July 2022}
+      {Persistent Systems }{Pune, Maharashtra}
+      \resumeItemListStart
+        \resumeItem{Completed a 6-month internship with training in Java and hands-on experience with Java, SQL, Spring, Spring Boot, and OOP, and developed mini-projects to apply and enhance technical skills. }
+            \resumeItem{Completed AZ-900 certification in Microsoft Azure Fundamentals . }
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\textbf{Solid Waste Classifier App} } $|$ \emph{Java, Android Studio, Firebase Database, Python, Google Colab $|$ Final year Project}}{}
+          \resumeItemListStart
+            \resumeItem{An Android application that takes an image or video as input and categorises solid waste into six categories. The app also provides insights on waste classification according to different localities through its Android interface.  }
+            \resumeItem{Fine-tuned the YOLOv5 model on a waste dataset of 10,000+ annotated images for enhanced object detection and classification using Google Colab. }
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{\textbf{Hospital Management System} } $|$ \emph{Spring Boot, Spring JPA, MySQL, HTML, Thymeleaf, Spring Tool Suite }}{}
+          \resumeItemListStart
+            \resumeItem{A patient can schedule an appointment with a doctor according to the doctor's availability. The doctor has authority to accept appointments and can review past appointments. Implemented a multiple login system for different roles (patient and doctor).  }
+
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, React, C/C++, SQL, MongoDB} \\
+     \textbf{Frameworks}{: Spring MVC, Spring Boot, Spring JPA, FastAPI} \\
+     \textbf{Developer Tools}{: Git, Docker, VS Code,  Eclipse, STS, Android Studio, Microsoft PowerApps , Microsoft PowerAutomate, Postman} \\
+     \textbf{Cloud Platforms}{: AWS (S3, Lambda, ECS, CloudFront, CodeCommit, CodePipeline, Bedrock, Textract, DocumentDB, API Gateway), Azure (DevOps) }
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
